@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		9E7FC889259A00F500E4B352 /* whatAppProMaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC876259A00F400E4B352 /* whatAppProMaxApp.swift */; };
 		9E7FC88A259A00F500E4B352 /* whatAppProMaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC876259A00F400E4B352 /* whatAppProMaxApp.swift */; };
-		9E7FC88B259A00F500E4B352 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC877259A00F400E4B352 /* ContentView.swift */; };
-		9E7FC88C259A00F500E4B352 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC877259A00F400E4B352 /* ContentView.swift */; };
+		9E7FC88B259A00F500E4B352 /* AppStartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC877259A00F400E4B352 /* AppStartPage.swift */; };
+		9E7FC88C259A00F500E4B352 /* AppStartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC877259A00F400E4B352 /* AppStartPage.swift */; };
 		9E7FC88D259A00F500E4B352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7FC878259A00F500E4B352 /* Assets.xcassets */; };
 		9E7FC88E259A00F500E4B352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7FC878259A00F500E4B352 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E7FC876259A00F400E4B352 /* whatAppProMaxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatAppProMaxApp.swift; sourceTree = "<group>"; };
-		9E7FC877259A00F400E4B352 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E7FC877259A00F400E4B352 /* AppStartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStartPage.swift; sourceTree = "<group>"; };
 		9E7FC878259A00F500E4B352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E7FC87D259A00F500E4B352 /* whatAppProMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whatAppProMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7FC880259A00F500E4B352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				9E7FC876259A00F400E4B352 /* whatAppProMaxApp.swift */,
-				9E7FC877259A00F400E4B352 /* ContentView.swift */,
+				9E7FC877259A00F400E4B352 /* AppStartPage.swift */,
 				9E7FC878259A00F500E4B352 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,7 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E7FC88B259A00F500E4B352 /* ContentView.swift in Sources */,
+				9E7FC88B259A00F500E4B352 /* AppStartPage.swift in Sources */,
 				9E7FC889259A00F500E4B352 /* whatAppProMaxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E7FC88C259A00F500E4B352 /* ContentView.swift in Sources */,
+				9E7FC88C259A00F500E4B352 /* AppStartPage.swift in Sources */,
 				9E7FC88A259A00F500E4B352 /* whatAppProMaxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
