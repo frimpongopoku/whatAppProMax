@@ -13,6 +13,10 @@
 		9E7FC88C259A00F500E4B352 /* AppStartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC877259A00F400E4B352 /* AppStartPage.swift */; };
 		9E7FC88D259A00F500E4B352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7FC878259A00F500E4B352 /* Assets.xcassets */; };
 		9E7FC88E259A00F500E4B352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7FC878259A00F500E4B352 /* Assets.xcassets */; };
+		9E7FC89C259A12A900E4B352 /* ChatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC89B259A12A900E4B352 /* ChatItem.swift */; };
+		9E7FC8A0259A134800E4B352 /* AllChatsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC89F259A134800E4B352 /* AllChatsPage.swift */; };
+		9E7FC8A4259A13B100E4B352 /* Color-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8A3259A13B100E4B352 /* Color-Ext.swift */; };
+		9E7FC8A8259A193A00E4B352 /* IconTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8A7259A193A00E4B352 /* IconTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9E7FC885259A00F500E4B352 /* whatAppProMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whatAppProMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7FC887259A00F500E4B352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E7FC888259A00F500E4B352 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9E7FC89B259A12A900E4B352 /* ChatItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatItem.swift; sourceTree = "<group>"; };
+		9E7FC89F259A134800E4B352 /* AllChatsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllChatsPage.swift; sourceTree = "<group>"; };
+		9E7FC8A3259A13B100E4B352 /* Color-Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color-Ext.swift"; sourceTree = "<group>"; };
+		9E7FC8A7259A193A00E4B352 /* IconTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,12 @@
 		9E7FC875259A00F400E4B352 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9E7FC89A259A128B00E4B352 /* Pages */,
+				9E7FC899259A127F00E4B352 /* Components */,
 				9E7FC876259A00F400E4B352 /* whatAppProMaxApp.swift */,
 				9E7FC877259A00F400E4B352 /* AppStartPage.swift */,
 				9E7FC878259A00F500E4B352 /* Assets.xcassets */,
+				9E7FC8A3259A13B100E4B352 /* Color-Ext.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -88,6 +99,23 @@
 				9E7FC888259A00F500E4B352 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		9E7FC899259A127F00E4B352 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9E7FC89B259A12A900E4B352 /* ChatItem.swift */,
+				9E7FC8A7259A193A00E4B352 /* IconTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9E7FC89A259A128B00E4B352 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				9E7FC89F259A134800E4B352 /* AllChatsPage.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E7FC88B259A00F500E4B352 /* AppStartPage.swift in Sources */,
+				9E7FC8A4259A13B100E4B352 /* Color-Ext.swift in Sources */,
+				9E7FC8A8259A193A00E4B352 /* IconTextField.swift in Sources */,
 				9E7FC889259A00F500E4B352 /* whatAppProMaxApp.swift in Sources */,
+				9E7FC8A0259A134800E4B352 /* AllChatsPage.swift in Sources */,
+				9E7FC89C259A12A900E4B352 /* ChatItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
