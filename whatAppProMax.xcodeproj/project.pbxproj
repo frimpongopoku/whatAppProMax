@@ -17,6 +17,7 @@
 		9E7FC8A0259A134800E4B352 /* AllChatsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC89F259A134800E4B352 /* AllChatsPage.swift */; };
 		9E7FC8A4259A13B100E4B352 /* Color-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8A3259A13B100E4B352 /* Color-Ext.swift */; };
 		9E7FC8A8259A193A00E4B352 /* IconTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8A7259A193A00E4B352 /* IconTextField.swift */; };
+		9E7FC8AC259A3CDC00E4B352 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8AB259A3CDC00E4B352 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9E7FC89F259A134800E4B352 /* AllChatsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllChatsPage.swift; sourceTree = "<group>"; };
 		9E7FC8A3259A13B100E4B352 /* Color-Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color-Ext.swift"; sourceTree = "<group>"; };
 		9E7FC8A7259A193A00E4B352 /* IconTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextField.swift; sourceTree = "<group>"; };
+		9E7FC8AB259A3CDC00E4B352 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				9E7FC89F259A134800E4B352 /* AllChatsPage.swift */,
+				9E7FC8AB259A3CDC00E4B352 /* Test.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				9E7FC88B259A00F500E4B352 /* AppStartPage.swift in Sources */,
 				9E7FC8A4259A13B100E4B352 /* Color-Ext.swift in Sources */,
 				9E7FC8A8259A193A00E4B352 /* IconTextField.swift in Sources */,
+				9E7FC8AC259A3CDC00E4B352 /* Test.swift in Sources */,
 				9E7FC889259A00F500E4B352 /* whatAppProMaxApp.swift in Sources */,
 				9E7FC8A0259A134800E4B352 /* AllChatsPage.swift in Sources */,
 				9E7FC89C259A12A900E4B352 /* ChatItem.swift in Sources */,
