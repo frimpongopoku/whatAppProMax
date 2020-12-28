@@ -17,7 +17,7 @@ struct AppStartPage: View {
 					Image(systemName: "phone")
 					Text("Calls")
 				}
-			AllChatsPage()
+			CameraPage()
 				.tabItem{
 					Image(systemName: "camera")
 					Text("Camera")

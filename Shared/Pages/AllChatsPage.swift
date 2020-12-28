@@ -1,7 +1,3 @@
-//
-//  AllChatsPage.swift
-//  MorphDesigns
-//
 //  Created by frimpongOpokuAgyemang on 27/12/2020.
 //
 
