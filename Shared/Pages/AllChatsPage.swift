@@ -4,6 +4,7 @@
 import SwiftUI
 
 struct AllChatsPage: View {
+	@State var noBackButton  = false
 	var body: some View {
 		GeometryReader{ geometry in
 			VStack{
@@ -22,10 +23,10 @@ struct AllChatsPage: View {
 								}.padding(.trailing,20)
 							}
 							Divider()
-							ChatList()
+							ChatList(noBackButton: self.$noBackButton)
 								.frame(minHeight: 100 * 10)
 								.listStyle(PlainListStyle())
-								.navigationTitle("Chats")
+								.navigationTitle(self.noBackButton ? "" : "Chats")
 								.navigationBarItems(leading: (Button(action:{}){Text("Edit")}), trailing:(Button(action:{}){Image(systemName:"square.and.pencil")}) )
 						}
 					}
@@ -37,13 +38,21 @@ struct AllChatsPage: View {
 }
 
 struct ChatList : View {
+	@Binding var noBackButton : Bool
 	var body : some View {
 		GeometryReader{ geo in
 			List(1...10, id:\.self){ num in
-				NavigationLink(destination:Text("Here we go again --- \(num)")){
-					Button{}label:{
-						ChatItem()
-					}
+				NavigationLink(
+					destination:
+							Text("Here we go again --- \(num)")
+								.onAppear(){
+									self.noBackButton.toggle()
+								}
+								.onDisappear(){
+									self.noBackButton.toggle()
+								}
+				){
+					ChatItem()
 				}
 			}.onAppear {
 				UITableView.appearance().isScrollEnabled = false

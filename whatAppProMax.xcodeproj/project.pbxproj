@@ -21,6 +21,9 @@
 		9E7FC8B9259A76A100E4B352 /* ImageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8B8259A76A100E4B352 /* ImageHandler.swift */; };
 		9E7FC8BD259A7E2A00E4B352 /* CameraPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8BC259A7E2A00E4B352 /* CameraPage.swift */; };
 		9E7FC8CF259ABC8A00E4B352 /* Image-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8CE259ABC8A00E4B352 /* Image-Ext.swift */; };
+		9E8A05AE259B6F4C00621368 /* ChattingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8A05AD259B6F4C00621368 /* ChattingPage.swift */; };
+		9E8A05B2259B6F7100621368 /* OneMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8A05B1259B6F7100621368 /* OneMessageView.swift */; };
+		9E8A05B6259B99D900621368 /* IndividualChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8A05B5259B99D900621368 /* IndividualChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		9E7FC8B8259A76A100E4B352 /* ImageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHandler.swift; sourceTree = "<group>"; };
 		9E7FC8BC259A7E2A00E4B352 /* CameraPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPage.swift; sourceTree = "<group>"; };
 		9E7FC8CE259ABC8A00E4B352 /* Image-Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image-Ext.swift"; sourceTree = "<group>"; };
+		9E8A05AD259B6F4C00621368 /* ChattingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingPage.swift; sourceTree = "<group>"; };
+		9E8A05B1259B6F7100621368 /* OneMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneMessageView.swift; sourceTree = "<group>"; };
+		9E8A05B5259B99D900621368 /* IndividualChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 			children = (
 				9E7FC89B259A12A900E4B352 /* ChatItem.swift */,
 				9E7FC8A7259A193A00E4B352 /* IconTextField.swift */,
+				9E8A05B1259B6F7100621368 /* OneMessageView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -126,6 +133,8 @@
 				9E7FC89F259A134800E4B352 /* AllChatsPage.swift */,
 				9E7FC8AB259A3CDC00E4B352 /* Test.swift */,
 				9E7FC8BC259A7E2A00E4B352 /* CameraPage.swift */,
+				9E8A05AD259B6F4C00621368 /* ChattingPage.swift */,
+				9E8A05B5259B99D900621368 /* IndividualChatView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -235,14 +244,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8A05AE259B6F4C00621368 /* ChattingPage.swift in Sources */,
 				9E7FC88B259A00F500E4B352 /* AppStartPage.swift in Sources */,
 				9E7FC8A4259A13B100E4B352 /* Color-Ext.swift in Sources */,
+				9E8A05B6259B99D900621368 /* IndividualChatView.swift in Sources */,
 				9E7FC8A8259A193A00E4B352 /* IconTextField.swift in Sources */,
 				9E7FC8AC259A3CDC00E4B352 /* Test.swift in Sources */,
 				9E7FC889259A00F500E4B352 /* whatAppProMaxApp.swift in Sources */,
 				9E7FC8A0259A134800E4B352 /* AllChatsPage.swift in Sources */,
 				9E7FC8B9259A76A100E4B352 /* ImageHandler.swift in Sources */,
 				9E7FC8CF259ABC8A00E4B352 /* Image-Ext.swift in Sources */,
+				9E8A05B2259B6F7100621368 /* OneMessageView.swift in Sources */,
 				9E7FC89C259A12A900E4B352 /* ChatItem.swift in Sources */,
 				9E7FC8BD259A7E2A00E4B352 /* CameraPage.swift in Sources */,
 			);

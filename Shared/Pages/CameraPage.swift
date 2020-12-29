@@ -15,7 +15,7 @@ struct CameraPage: View {
 				Image("mangoes")
 					.resizable()
 					.scaledToFit()
-					.frame(width:300, height:300)
+					.frame(maxWidth:.infinity, maxHeight:300)
 					.cornerRadius(10)
 			}else{
 				Button(action: { self.showSheet.toggle()}){

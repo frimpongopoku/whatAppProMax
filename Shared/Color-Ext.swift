@@ -15,4 +15,5 @@ extension Color {
 	static let ghostWhiteDeep = Color(red: 191/255, green: 197/255, blue:195/255)
 	static let ghostWhiteMedium = Color(red: 209/255, green: 215/255, blue:213/255)
 
+
 }

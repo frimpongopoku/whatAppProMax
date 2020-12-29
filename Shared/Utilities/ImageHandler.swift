@@ -26,13 +26,7 @@ struct ImagePickerView : UIViewControllerRepresentable {
 	
 	func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
 	}
-	
-	func getResizeOptions(){
-		if(self.shouldBeResized){
-			
-		}
-	}
-	
+
 	
 	//-------------- COORDINATOR --------------------
 	
