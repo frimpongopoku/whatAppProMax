@@ -1,7 +1,4 @@
-//
-//  CameraPage.swift
-//  whatAppProMax (iOS)
-//
+
 //  Created by frimpongOpokuAgyemang on 28/12/2020.
 //
 
@@ -31,19 +28,27 @@ struct CameraPage: View {
 			}
 		}.onAppear(){
 			self.showActionSheet.toggle()
-			
 		}
 		.actionSheet(isPresented: $showActionSheet) {
-			ActionSheet(title:Text( "Choose Media Access "), message:Text("Pick Image from camera or gallery"), buttons: [
+			ActionSheet(title:Text( "Choose Media Access "),
+									message:Text("Pick Image from camera or gallery"), buttons: [
 				.default(Text("Photo Library"))
 					{self.showSheet.toggle(); self.showActionSheet.toggle()},
 				.default(Text("Camera")),
 				.cancel()
-				
 			])
 		}.sheet(isPresented: $showSheet){
-			ImagePickerView(exitPicker: $showSheet, image: $image)
+			ImagePickerView(exitPicker: $showSheet, image: $image, shouldBeResized: true, byPercentage: true, percentageQuality:0.25)
 		}
+	}
+	
+	
+	func compressAndReturn(image: UIImage)->UIImage?{
+		print("compressed version");
+		if let img = image.resized(toWidth:200) {
+			return img
+		}
+		return UIImage(named:"mangoes");
 	}
 }
 

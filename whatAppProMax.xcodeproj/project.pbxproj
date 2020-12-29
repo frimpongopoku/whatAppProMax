@@ -20,6 +20,7 @@
 		9E7FC8AC259A3CDC00E4B352 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8AB259A3CDC00E4B352 /* Test.swift */; };
 		9E7FC8B9259A76A100E4B352 /* ImageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8B8259A76A100E4B352 /* ImageHandler.swift */; };
 		9E7FC8BD259A7E2A00E4B352 /* CameraPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8BC259A7E2A00E4B352 /* CameraPage.swift */; };
+		9E7FC8CF259ABC8A00E4B352 /* Image-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FC8CE259ABC8A00E4B352 /* Image-Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9E7FC8AB259A3CDC00E4B352 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		9E7FC8B8259A76A100E4B352 /* ImageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHandler.swift; sourceTree = "<group>"; };
 		9E7FC8BC259A7E2A00E4B352 /* CameraPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPage.swift; sourceTree = "<group>"; };
+		9E7FC8CE259ABC8A00E4B352 /* Image-Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image-Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				9E7FC877259A00F400E4B352 /* AppStartPage.swift */,
 				9E7FC878259A00F500E4B352 /* Assets.xcassets */,
 				9E7FC8A3259A13B100E4B352 /* Color-Ext.swift */,
+				9E7FC8CE259ABC8A00E4B352 /* Image-Ext.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				9E7FC889259A00F500E4B352 /* whatAppProMaxApp.swift in Sources */,
 				9E7FC8A0259A134800E4B352 /* AllChatsPage.swift in Sources */,
 				9E7FC8B9259A76A100E4B352 /* ImageHandler.swift in Sources */,
+				9E7FC8CF259ABC8A00E4B352 /* Image-Ext.swift in Sources */,
 				9E7FC89C259A12A900E4B352 /* ChatItem.swift in Sources */,
 				9E7FC8BD259A7E2A00E4B352 /* CameraPage.swift in Sources */,
 			);
@@ -373,6 +377,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQVXM5352J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -394,6 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQVXM5352J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
