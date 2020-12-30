@@ -5,6 +5,7 @@ import SwiftUI
 
 struct AllChatsPage: View {
 	@State var noBackButton  = false
+	@State var test : String? = nil
 	var body: some View {
 		GeometryReader{ geometry in
 			VStack{
@@ -14,7 +15,7 @@ struct AllChatsPage: View {
 							IconTextField()
 								.padding([.leading,.trailing],20)
 							HStack{
-								Button(action:{print("here")}) {
+								Button(action:{self.test = "test-phase"}) {
 									Text("Broadcast Lists")
 								}.padding(.leading,20)
 								Spacer()
@@ -27,11 +28,23 @@ struct AllChatsPage: View {
 								.frame(minHeight: 100 * 10)
 								.listStyle(PlainListStyle())
 								.navigationTitle(self.noBackButton ? "" : "Chats")
-								.navigationBarItems(leading: (Button(action:{}){Text("Edit")}), trailing:(Button(action:{}){Image(systemName:"square.and.pencil")}) )
+								.navigationBarItems(
+									leading: (
+										Button(action:{})
+											{Text("Edit")}
+									),
+									trailing:(
+										Button(action:{})
+											{Image(systemName:"square.and.pencil")}
+									)
+								)
 						}
 					}
+					
+					
+					
+					
 				}
-				
 			}
 		}
 	}
@@ -44,13 +57,14 @@ struct ChatList : View {
 			List(1...10, id:\.self){ num in
 				NavigationLink(
 					destination:
-							Text("Here we go again --- \(num)")
-								.onAppear(){
-									self.noBackButton.toggle()
-								}
-								.onDisappear(){
-									self.noBackButton.toggle()
-								}
+						IndividualChatView()
+						.navigationBarItems(leading:HeaderContent(leadingContent: true), trailing: HeaderContent(leadingContent:false))
+						.onAppear(){
+							self.noBackButton.toggle()
+						}
+						.onDisappear(){
+							self.noBackButton.toggle()
+						}
 				){
 					ChatItem()
 				}
